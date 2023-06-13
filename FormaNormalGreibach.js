@@ -1,4 +1,4 @@
-// Cada etapa de Greibach esta em um arquivo separado na pasta funções
+// Cada etapa de Greibach esta em arquivos separados na pasta codigo
 // Aqui importo cada um deles
 // Eles executam em sequencia na função livreDeContexto_para_NormalGreibach()
 const Ajustando_Vazio = globalThis.SimplificandoGramatica.AjustandoVazio
