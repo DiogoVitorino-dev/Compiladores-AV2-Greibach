@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AV2</title>
+    <link rel="stylesheet" href="./site/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h2>Cada etapa da transformação para Greibach (FNG) esta em um arquivo separado na pasta funções</h2>
+            <h2>Eles executam em sequencia no arquivo FormaNormalGreibach.js</h2>
+        </div>        
+        <div class="containerText">
+            <p>&bull; Gramatica Livre de Contexto - Letra E)</p>
+            <span>
+                S ⇒ A | ABa | AbA <br>
+                A ⇒ Aa | &lambda; <br>
+                B ⇒ Bb | BC <br>
+                C ⇒ CB | CA | bB <br>
+            </span>            
+        </div>
+        <div class="containerText">
+            <p>&bull; Resultado na Forma Normal de Greibach</p>
+            <span id="resposta"></span>
+        </div>
+    </div>    
+
+    <script src="funcoes/ColocandoTerminalInicio.js"></script>
+    <script src="funcoes/RenomeandoVariaveis.js"></script>
+    <script src="funcoes/RetirandoRecursõesEsquerda.js"></script>
+    <script src="funcoes/SimplificacaoGramatica.js"></script>
+    <script src="funcoes/TerminalInicioRestanteVariavel.js"></script>    
+    <script src="FormaNormalGreibach.js"></script>
+    <script src="site/script.js"></script>
+</body>
+</html>
